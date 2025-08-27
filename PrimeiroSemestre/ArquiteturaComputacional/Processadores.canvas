@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"093c92a703e0bfee","type":"text","text":"Processadores","x":-171,"y":-62,"width":250,"height":60},
+		{"id":"8cc8b7470057b02a","type":"text","text":"Clock Interno","x":-176,"y":-260,"width":250,"height":60},
+		{"id":"79b9563da527ef53","type":"text","text":"Aumentar dinamicamente essa frequencia","x":29,"y":-485,"width":250,"height":60},
+		{"id":"bd86cd438afcb597","type":"text","text":"Frequencia que processador executa seus ciclos de operação","x":-380,"y":-508,"width":250,"height":106},
+		{"id":"e1575d4cd0871817","type":"text","text":"Turbo Core (AMD)","x":-91,"y":-677,"width":250,"height":60},
+		{"id":"dd6e71b812b274d1","type":"text","text":"Turmo Boost (Intel)","x":240,"y":-677,"width":250,"height":60},
+		{"id":"311a118d0996f1b9","type":"text","text":"Funciona como se fosse o ritmo de um coração","x":-426,"y":-677,"width":250,"height":60},
+		{"id":"64122aa478adfb76","type":"text","text":"UC","x":220,"y":99,"width":250,"height":60},
+		{"id":"566c96373aa22a5c","type":"text","text":"ULA","x":-130,"y":159,"width":250,"height":60},
+		{"id":"792e4ae15c60d5c1","type":"text","text":"Registro","x":-505,"y":99,"width":250,"height":60},
+		{"id":"9137dbafe034681c","type":"text","text":"Armazena/guarda os dados para a ULA processar","x":-755,"y":270,"width":250,"height":83},
+		{"id":"fd2107c631a4abf0","type":"text","text":"Unidade Lógica e Aritmética","x":-340,"y":323,"width":250,"height":60},
+		{"id":"ffe0929284db655f","type":"text","text":"Núcleo de cálculo da CPU","x":-51,"y":323,"width":250,"height":60},
+		{"id":"260d7f5f9fffa91b","x":612,"y":89,"width":250,"height":60,"type":"text","text":"Unidade de Controle"},
+		{"id":"d69d554ba75bef03","type":"text","text":"Envia comandos para a ULA","x":612,"y":189,"width":250,"height":60},
+		{"id":"9bff4c3adef58999","type":"text","text":"Recebe comando da UC","x":279,"y":323,"width":250,"height":60},
+		{"id":"6d44c5a5b7fd4911","x":279,"y":480,"width":250,"height":88,"type":"text","text":"Manipula os dados armazenados nos registros"},
+		{"id":"3dcc7afc3c28de69","x":275,"y":683,"width":250,"height":60,"type":"text","text":"Devolve para a UC o resultado"}
+	],
+	"edges":[
+		{"id":"305da8b7474dc0ca","fromNode":"093c92a703e0bfee","fromSide":"top","toNode":"8cc8b7470057b02a","toSide":"bottom"},
+		{"id":"7c263a996d28c601","fromNode":"8cc8b7470057b02a","fromSide":"top","toNode":"bd86cd438afcb597","toSide":"bottom"},
+		{"id":"4155a16e674cf93c","fromNode":"8cc8b7470057b02a","fromSide":"top","toNode":"79b9563da527ef53","toSide":"bottom"},
+		{"id":"a080a4b9f5443d8b","fromNode":"79b9563da527ef53","fromSide":"top","toNode":"dd6e71b812b274d1","toSide":"bottom"},
+		{"id":"ec6c73f7159c8875","fromNode":"79b9563da527ef53","fromSide":"top","toNode":"e1575d4cd0871817","toSide":"bottom"},
+		{"id":"500902e5d6d533ba","fromNode":"bd86cd438afcb597","fromSide":"top","toNode":"311a118d0996f1b9","toSide":"bottom"},
+		{"id":"087fa656a3f784d3","fromNode":"093c92a703e0bfee","fromSide":"bottom","toNode":"792e4ae15c60d5c1","toSide":"top"},
+		{"id":"14b9700a989c70d1","fromNode":"093c92a703e0bfee","fromSide":"bottom","toNode":"566c96373aa22a5c","toSide":"top"},
+		{"id":"4643d9d1439defd6","fromNode":"093c92a703e0bfee","fromSide":"bottom","toNode":"64122aa478adfb76","toSide":"top"},
+		{"id":"42bfac20b42cfc2c","fromNode":"566c96373aa22a5c","fromSide":"bottom","toNode":"fd2107c631a4abf0","toSide":"top"},
+		{"id":"16025546e9848af9","fromNode":"566c96373aa22a5c","fromSide":"bottom","toNode":"ffe0929284db655f","toSide":"top"},
+		{"id":"37775619b6913cd2","fromNode":"792e4ae15c60d5c1","fromSide":"bottom","toNode":"9137dbafe034681c","toSide":"top"},
+		{"id":"8ff6ce4862c46efb","fromNode":"566c96373aa22a5c","fromSide":"bottom","toNode":"9bff4c3adef58999","toSide":"top"},
+		{"id":"297cea1a2be61c3a","fromNode":"64122aa478adfb76","fromSide":"right","toNode":"260d7f5f9fffa91b","toSide":"left"},
+		{"id":"6d2933f2af9e46ae","fromNode":"64122aa478adfb76","fromSide":"right","toNode":"d69d554ba75bef03","toSide":"left"},
+		{"id":"c38a83f52d75e543","fromNode":"9bff4c3adef58999","fromSide":"bottom","toNode":"6d44c5a5b7fd4911","toSide":"top"},
+		{"id":"e192203b54fbdbf2","fromNode":"6d44c5a5b7fd4911","fromSide":"bottom","toNode":"3dcc7afc3c28de69","toSide":"top"}
+	]
+}
