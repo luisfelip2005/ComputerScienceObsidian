@@ -11,10 +11,29 @@
             "id": "ac0ee4ead9bdac38",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "PrimeiroSemestre/ArquiteturaComputacional/Computacao.canvas",
+                "viewState": {
+                  "x": 878,
+                  "y": 381,
+                  "zoom": -2.952614889441974
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Computacao"
+            }
+          },
+          {
+            "id": "35952c3b1b5aae7d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "PrimeiroSemestre/ArquiteturaComputacional/Processadores.png"
+              },
+              "icon": "lucide-image",
+              "title": "Processadores"
             }
           }
         ]
@@ -74,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "53e9c1f861eafa39",
@@ -90,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PrimeiroSemestre/ArquiteturaComputacional/Processadores.canvas",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Processadores"
             }
           },
           {
@@ -108,11 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PrimeiroSemestre/ArquiteturaComputacional/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -136,12 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "PrimeiroSemestre/ArquiteturaComputacional/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -164,11 +187,13 @@
   },
   "active": "ac0ee4ead9bdac38",
   "lastOpenFiles": [
-    "PrimeiroSemestre/SistemasOperacionais/Virtualização.png",
-    "PrimeiroSemestre/SistemasOperacionais/Virtualização.canvas",
+    "PrimeiroSemestre/ArquiteturaComputacional/Computacao.png",
+    "PrimeiroSemestre/ArquiteturaComputacional/Processadores.canvas",
+    "PrimeiroSemestre/ArquiteturaComputacional/Computacao.canvas",
     "PrimeiroSemestre/ArquiteturaComputacional/Untitled.md",
     "PrimeiroSemestre/ArquiteturaComputacional/Processadores.png",
-    "PrimeiroSemestre/ArquiteturaComputacional/Processadores.canvas",
+    "PrimeiroSemestre/SistemasOperacionais/Virtualização.png",
+    "PrimeiroSemestre/SistemasOperacionais/Virtualização.canvas",
     "PrimeiroSemestre/SistemasOperacionais",
     "PrimeiroSemestre/ArquiteturaComputacional",
     "PrimeiroSemestre",
