@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"fc52b930d540ab4a","x":-54,"y":-91,"width":250,"height":60,"color":"4","type":"text","text":"PADRONIZAÇÃO DE TI"},
+		{"id":"c49a514be9394446","x":-61,"y":75,"width":250,"height":60,"type":"text","text":"Beneficios"},
+		{"id":"f73496443250434c","x":-340,"y":287,"width":250,"height":88,"type":"text","text":"- Aumento da facilidade na administração dos recursos de TI;"},
+		{"id":"fc48d051449e3e25","x":240,"y":279,"width":250,"height":96,"type":"text","text":"- Maior velocidade no contingenciamento de falhas e problemas;"},
+		{"id":"2a2a9f7ac4cb5240","x":-54,"y":257,"width":250,"height":60,"type":"text","text":"- Redução de custos"},
+		{"id":"a762230b75db895b","x":305,"y":99,"width":295,"height":61,"type":"text","text":"- Baixa quantidade de perdas ao executar os trabalhos;"},
+		{"id":"5c625306e0d63154","x":305,"y":15,"width":250,"height":60,"type":"text","text":"- Diminuição de paralisações;"},
+		{"id":"a954b497064bf3bc","x":-420,"y":105,"width":250,"height":60,"type":"text","text":"- Definição clara dos processos."}
+	],
+	"edges":[
+		{"id":"cbd4dd49a551abce","fromNode":"fc52b930d540ab4a","fromSide":"bottom","toNode":"c49a514be9394446","toSide":"top"},
+		{"id":"26c06c692481d91f","fromNode":"c49a514be9394446","fromSide":"bottom","toNode":"2a2a9f7ac4cb5240","toSide":"top"},
+		{"id":"c86827089625e8f1","fromNode":"c49a514be9394446","fromSide":"bottom","toNode":"f73496443250434c","toSide":"top"},
+		{"id":"6bce96ed9252bc5e","fromNode":"c49a514be9394446","fromSide":"bottom","toNode":"fc48d051449e3e25","toSide":"top"},
+		{"id":"b575b1547a5283e1","fromNode":"c49a514be9394446","fromSide":"right","toNode":"5c625306e0d63154","toSide":"left"},
+		{"id":"cded384addf3fe51","fromNode":"c49a514be9394446","fromSide":"right","toNode":"a762230b75db895b","toSide":"left"},
+		{"id":"b9fca02a5c0e5ccb","fromNode":"c49a514be9394446","fromSide":"left","toNode":"a954b497064bf3bc","toSide":"right"}
+	]
+}

@@ -8,32 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ac0ee4ead9bdac38",
+            "id": "35952c3b1b5aae7d",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "PrimeiroSemestre/ArquiteturaComputacional/Computacao.canvas",
+                "file": "PrimeiroSemestre/SistemasOperacionais/Abstracao.canvas",
                 "viewState": {
-                  "x": 878,
-                  "y": 381,
-                  "zoom": -2.952614889441974
+                  "x": 112.95281591950771,
+                  "y": 98.21192109062082,
+                  "zoom": -1.3051880330392556
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Computacao"
-            }
-          },
-          {
-            "id": "35952c3b1b5aae7d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "PrimeiroSemestre/ArquiteturaComputacional/Processadores.png"
-              },
-              "icon": "lucide-image",
-              "title": "Processadores"
+              "title": "Abstracao"
             }
           }
         ]
@@ -93,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "53e9c1f861eafa39",
@@ -185,15 +172,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "ac0ee4ead9bdac38",
+  "active": "35952c3b1b5aae7d",
   "lastOpenFiles": [
-    "PrimeiroSemestre/ArquiteturaComputacional/Computacao.png",
-    "PrimeiroSemestre/ArquiteturaComputacional/Processadores.canvas",
-    "PrimeiroSemestre/ArquiteturaComputacional/Computacao.canvas",
+    "readme.md",
+    "PrimeiroSemestre/SistemasOperacionais/FinalidadeDoSO.canvas",
+    "PrimeiroSemestre/SistemasOperacionais/ObsolenciaProgramada.canvas",
+    "PrimeiroSemestre/SistemasOperacionais/PadronizacaoDeTI.canvas",
+    "PrimeiroSemestre/SistemasOperacionais/Virtualização.canvas",
+    "PrimeiroSemestre/SistemasOperacionais/Abstracao.canvas",
+    "Untitled.canvas",
+    "Untitled.md",
     "PrimeiroSemestre/ArquiteturaComputacional/Untitled.md",
     "PrimeiroSemestre/ArquiteturaComputacional/Processadores.png",
     "PrimeiroSemestre/SistemasOperacionais/Virtualização.png",
-    "PrimeiroSemestre/SistemasOperacionais/Virtualização.canvas",
+    "PrimeiroSemestre/SistemasOperacionais/Untitled.md",
+    "PrimeiroSemestre/SistemasOperacionais/Untitled.base",
+    "PrimeiroSemestre/ArquiteturaComputacional/Computacao.canvas",
+    "PrimeiroSemestre/ArquiteturaComputacional/Processadores.canvas",
+    "PrimeiroSemestre/TecnologiaDaInformacao",
+    "PrimeiroSemestre/ArquiteturaComputacional/Computacao.png",
     "PrimeiroSemestre/SistemasOperacionais",
     "PrimeiroSemestre/ArquiteturaComputacional",
     "PrimeiroSemestre",
@@ -205,8 +202,6 @@
     "ComputerScienceObsidian/PrimeiroSemestre/SistemasOperacionais",
     "ComputerScienceObsidian/PrimeiroSemestre/ArquiteturaComputacional",
     "ComputerScienceObsidian/PrimeiroSemestre",
-    "SistemasOperacionais/Virtualização.canvas",
-    "ArquiteturaComputacional/Processadores.canvas",
     "ComputerScienceObsidian/README.md",
     "ComputerScienceObsidian",
     "ArquiteturaComputacional/Processadores.png",
@@ -214,8 +209,6 @@
     "SistemasOperacionais",
     "sla.md",
     "ArquiteturaComputacional/Untitled.md",
-    "2025-08-26.md",
-    "Untitled 1.canvas",
-    "ArquiteturaComputacional"
+    "2025-08-26.md"
   ]
 }

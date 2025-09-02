@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"8a5c07db6f9e751d","type":"text","text":"SISTEMA OPERACIONAL","x":-51,"y":-96,"width":250,"height":60,"color":"5"},
+		{"id":"7b36a0f2ff6d3b93","type":"text","text":"Possui 3 pilares","x":-46,"y":120,"width":250,"height":60},
+		{"id":"bac262604d0a1706","type":"text","text":"Kernel","x":-405,"y":283,"width":250,"height":60},
+		{"id":"9624133eecad63aa","type":"text","text":"Middleware","x":-56,"y":328,"width":250,"height":60},
+		{"id":"19bc6d959a880e0c","type":"text","text":"Shell","x":380,"y":278,"width":250,"height":60},
+		{"id":"36bc662db80172a8","type":"text","text":"CORE - Processo de detecção de todo o hardware","x":-639,"y":456,"width":279,"height":84},
+		{"id":"826c97628740656e","type":"text","text":"SOFTWARE MEIO - atua como uma ponte entre diferentes aplicações.","x":-84,"y":496,"width":250,"height":84},
+		{"id":"d80d0620267a0a10","x":0,"y":760,"width":250,"height":60,"type":"text","text":"Sistemas de autenticação"},
+		{"id":"8102ba073d0d3220","type":"text","text":"Servidores web (API)","x":-267,"y":671,"width":225,"height":60},
+		{"id":"d68bcf29f2fc075b","x":166,"y":671,"width":250,"height":60,"type":"text","text":"Drivers de dispositivos"},
+		{"id":"4ee6a11e9eceb95a","x":496,"y":422,"width":250,"height":60,"type":"text","text":"Interpretador de comandos"},
+		{"id":"1d0e4c1563c59b91","x":-752,"y":631,"width":250,"height":100,"type":"text","text":"Ponte entre o sistema e o Hardware, pois se comunica direto com ele"},
+		{"id":"b3ac1e693163f9fc","x":-853,"y":829,"width":250,"height":91,"type":"text","text":"Armazenado no disco rigido e depois carregado na memória RAM"},
+		{"id":"b6f6ca141751447f","x":-501,"y":857,"width":250,"height":60,"type":"text","text":"Gerencia os recursos"},
+		{"id":"5322c62b9c85c8f5","x":553,"y":563,"width":250,"height":60,"type":"text","text":"Ponte entre o usuário e o sistema"},
+		{"id":"50fb9ea3a4f80b5b","x":630,"y":701,"width":250,"height":99,"type":"text","text":"Permite interagir com o NÚCLEO do sistema operacional (KERNEL)"},
+		{"id":"6a1fe66c65453bca","type":"text","text":"Gerencia os recursos do computador","x":-420,"y":-126,"width":250,"height":60},
+		{"id":"6bdeb8be8e2434dd","type":"text","text":"Fornece interfaces (CLI/GUI) e atua como facilitador entre o usuário e o hardware","x":320,"y":-167,"width":250,"height":142}
+	],
+	"edges":[
+		{"id":"4ad1e898d06913a4","fromNode":"8a5c07db6f9e751d","fromSide":"left","toNode":"6a1fe66c65453bca","toSide":"right"},
+		{"id":"d465899e775133db","fromNode":"8a5c07db6f9e751d","fromSide":"right","toNode":"6bdeb8be8e2434dd","toSide":"left"},
+		{"id":"0695665cdf7ce186","fromNode":"8a5c07db6f9e751d","fromSide":"bottom","toNode":"7b36a0f2ff6d3b93","toSide":"top"},
+		{"id":"408adda154c98557","fromNode":"7b36a0f2ff6d3b93","fromSide":"bottom","toNode":"bac262604d0a1706","toSide":"top"},
+		{"id":"40abcf4bde9d75bd","fromNode":"7b36a0f2ff6d3b93","fromSide":"bottom","toNode":"9624133eecad63aa","toSide":"top"},
+		{"id":"9d2667e0d80bf855","fromNode":"7b36a0f2ff6d3b93","fromSide":"bottom","toNode":"19bc6d959a880e0c","toSide":"top"},
+		{"id":"8750acb484c081b9","fromNode":"bac262604d0a1706","fromSide":"bottom","toNode":"36bc662db80172a8","toSide":"top"},
+		{"id":"0df51fba43ecd7e9","fromNode":"9624133eecad63aa","fromSide":"bottom","toNode":"826c97628740656e","toSide":"top"},
+		{"id":"99c9e5b2979cc8d4","fromNode":"826c97628740656e","fromSide":"bottom","toNode":"8102ba073d0d3220","toSide":"top"},
+		{"id":"422f5cc528de822c","fromNode":"826c97628740656e","fromSide":"bottom","toNode":"d80d0620267a0a10","toSide":"top"},
+		{"id":"e178216bd76f6912","fromNode":"826c97628740656e","fromSide":"bottom","toNode":"d68bcf29f2fc075b","toSide":"top"},
+		{"id":"1050794bcb990b7d","fromNode":"19bc6d959a880e0c","fromSide":"bottom","toNode":"4ee6a11e9eceb95a","toSide":"top"},
+		{"id":"40c6351a7cbcefba","fromNode":"36bc662db80172a8","fromSide":"bottom","toNode":"1d0e4c1563c59b91","toSide":"top"},
+		{"id":"d8387dff90768f41","fromNode":"1d0e4c1563c59b91","fromSide":"bottom","toNode":"b3ac1e693163f9fc","toSide":"top"},
+		{"id":"a3aff17ccd75c526","fromNode":"b3ac1e693163f9fc","fromSide":"right","toNode":"b6f6ca141751447f","toSide":"left"},
+		{"id":"39cf0dea5a077707","fromNode":"4ee6a11e9eceb95a","fromSide":"bottom","toNode":"5322c62b9c85c8f5","toSide":"top"},
+		{"id":"89cccb5b6194fd24","fromNode":"5322c62b9c85c8f5","fromSide":"bottom","toNode":"50fb9ea3a4f80b5b","toSide":"top"}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"3990d9f62808ddc7","type":"text","text":"ABSTRAÇÃO DE RECURSOS","x":-101,"y":61,"width":261,"height":60,"color":"4"},
+		{"id":"407362773f9aeba1","type":"text","text":"Processo pelo qual o SO **oculta/simplifica** os detalhes dos recursos do Hardware","x":-248,"y":201,"width":250,"height":119},
+		{"id":"fb70cfa3b34a246d","type":"text","text":"Permite que os programas possam interagir com os recursos de Hardware de maneira **simplificada** e **padronizada**","x":-331,"y":420,"width":250,"height":160},
+		{"id":"44ac4eb6ffb13e99","type":"text","text":"Torna a interação com o hardware mais simples","x":60,"y":201,"width":250,"height":60},
+		{"id":"91b2f3f347d1d1d1","type":"text","text":"Um dos principais objetivos do [[FinalidadeDoSO.canvas| Sistema Operacional]] é essa simplificação, pois ajuda a gerenciar os recursos de Hardware","x":92,"y":330,"width":250,"height":190},
+		{"id":"c6da2afc04c72a5c","type":"text","text":"HAL - Hardware Abstraction Layer","x":-87,"y":-83,"width":307,"height":60},
+		{"id":"0e2b172362a8707f","x":308,"y":-155,"width":250,"height":60,"type":"text","text":"- Fica entre o hardware e o software"},
+		{"id":"ff9e042cb030eff0","x":326,"y":-59,"width":250,"height":60,"type":"text","text":"- Oculta as diferenças de Hardware"},
+		{"id":"8904c292a082151d","x":-420,"y":-163,"width":250,"height":60,"type":"text","text":"- É susceptível a ataques de vírus"},
+		{"id":"db1458d44a0ca823","x":-416,"y":-74,"width":250,"height":135,"type":"text","text":"- Fois implementado em sistemas mais modernos (Windows NT e adiante)"}
+	],
+	"edges":[
+		{"id":"af41d05c7c0fef10","fromNode":"3990d9f62808ddc7","fromSide":"bottom","toNode":"407362773f9aeba1","toSide":"top"},
+		{"id":"e62adea6ac57447a","fromNode":"407362773f9aeba1","fromSide":"bottom","toNode":"fb70cfa3b34a246d","toSide":"top"},
+		{"id":"f16150c17df226df","fromNode":"3990d9f62808ddc7","fromSide":"bottom","toNode":"44ac4eb6ffb13e99","toSide":"top"},
+		{"id":"2a2efffbc2cb5db4","fromNode":"44ac4eb6ffb13e99","fromSide":"bottom","toNode":"91b2f3f347d1d1d1","toSide":"top"},
+		{"id":"ca49e06dd5c808f8","fromNode":"3990d9f62808ddc7","fromSide":"top","toNode":"c6da2afc04c72a5c","toSide":"bottom"},
+		{"id":"986f2bcad84a3535","fromNode":"c6da2afc04c72a5c","fromSide":"right","toNode":"0e2b172362a8707f","toSide":"left"},
+		{"id":"dddb938e2957772e","fromNode":"c6da2afc04c72a5c","fromSide":"right","toNode":"ff9e042cb030eff0","toSide":"left"},
+		{"id":"d6b581c5e47c937d","fromNode":"c6da2afc04c72a5c","fromSide":"left","toNode":"8904c292a082151d","toSide":"right"},
+		{"id":"fe6644d90d65ee73","fromNode":"c6da2afc04c72a5c","fromSide":"left","toNode":"db1458d44a0ca823","toSide":"right"}
+	]
+}
