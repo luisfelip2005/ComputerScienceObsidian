@@ -68,7 +68,19 @@ Para garantir eficiência no processo de criação desse projeto, iremos usar o 
 
 
 # 10. Demonstração do Arduino – montar Arduino, abrir e explicar código Arduino 
+Para uma demonstração prática, temos aqui um arduino com um sensor ultrassonico, explicando de modo breve, um arduino é um microcontrolador, ou seja, ele realiza processamentos lógicos de maneira simplificada e o sensor permite a obtenção dos dados do ambiente, por meio de ondas ultrassonicas.
+Indo agora a parte lógica do código.
+O código é dividido em blocos.
+O primeiro bloco é para chamada da boblioteca e declaração de variáveis.
+O segundo bloco são as configurações do arduino.
+O terceiro bloco é onde a lógica do código acontece, captamos a distancia com o sensor e exibimos em forma de gráfico.
+**GRAFICO**
+A Linha azul definimos como um indicador de que a ocupação do estoque está em nível descente.
+A Linha laranja é um indicador que o estoque esta esvaziando e precisa ser reposto.
 
+Quanto mais distante dos produtos, menor será a ocupação, então ele estará acima da linha laranja.
+
+Uma observação é que os valores que estão nesse gráfico são valores para demonstração, os valores reais de ocupação seriam maiores, pois o sensor capta até 4 metros.
 
 
 
